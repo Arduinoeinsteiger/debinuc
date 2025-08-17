@@ -89,10 +89,11 @@
 - **Logs:** /var/log/
 - **Konfiguration:** /etc/
 
-## 🔑 Wichtige Passwörter
-- **Nextcloud Admin:** nextcloud_vgnc_2024
-- **MariaDB:** zabbix123
-- **Telegram Bot:** 7989430370:AAHYr4rDL9O7JU2T2_Jaq8i5dIlxWqZt30Q
+## 🔐 Sicherheitshinweise
+- **Passwörter:** In separater, privater Datei gespeichert
+- **API-Tokens:** Nicht öffentlich sichtbar
+- **Zugangsdaten:** Lokal gesichert
+- **Repository:** Öffentlich, aber ohne sensible Daten
 
 ## 📞 Support-Info
 - **Letzte Aktualisierung:** 17. August 2025
@@ -109,3 +110,4 @@
 
 ---
 *Diese Übersicht wird automatisch bei Änderungen zu GitHub hochgeladen*
+*Sensible Daten sind aus Sicherheitsgründen entfernt*

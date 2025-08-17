@@ -1,0 +1,33 @@
+# 🔐 Private Dateien - NICHT zu GitHub hochladen!
+
+# Passwörter und Zugangsdaten
+.passwoerter_private
+passwoerter.txt
+secrets.txt
+*.key
+*.pem
+*.p12
+
+# API-Tokens
+.env
+.env.local
+config.php
+secrets.php
+
+# SSH-Schlüssel
+.ssh/
+id_rsa
+id_rsa.pub
+
+# Logs
+*.log
+logs/
+
+# Temporäre Dateien
+*.tmp
+*.temp
+.cache/
+
+# System-spezifische Dateien
+.DS_Store
+Thumbs.db
