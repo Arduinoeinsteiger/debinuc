@@ -1,0 +1,48 @@
+tunnel: 133ea984-0dc9-47aa-9816-782f774d991c
+credentials-file: /home/v/.cloudflared/133ea984-0dc9-47aa-9816-782f774d991c.json
+
+ingress:
+  # n8n - Workflow Automation
+  - hostname: n8n.vgnc.org
+    service: http://localhost:5678
+    originRequest:
+      noTLSVerify: true
+
+  # Homepage - Dashboard
+  - hostname: home.vgnc.org
+    service: http://localhost:8080
+    originRequest:
+      noTLSVerify: true
+
+  # Nextcloud
+  - hostname: nextcloud.vgnc.org
+    service: http://localhost:8081
+    originRequest:
+      noTLSVerify: true
+
+  # Telegram Bot
+  - hostname: bot.vgnc.org
+    service: http://localhost:3000
+    originRequest:
+      noTLSVerify: true
+
+  # Netdata - System Monitoring
+  - hostname: netdata.vgnc.org
+    service: http://localhost:19999
+    originRequest:
+      noTLSVerify: true
+
+  # Portainer - Docker Management
+  - hostname: portainer.vgnc.org
+    service: http://localhost:9000
+    originRequest:
+      noTLSVerify: true
+
+  # Telegram Bot
+  - hostname: bot.vgnc.org
+    service: http://localhost:3000
+    originRequest:
+      noTLSVerify: true
+
+  # Catch-all rule
+  - service: http_status:404

@@ -1,0 +1,29 @@
+---
+# VGNC Network Services
+# Clean configuration for all running services
+
+- VGNC Network:
+    - n8n:
+        href: https://n8n.vgnc.org
+        description: Workflow Automation
+        icon: n8n
+    - Nextcloud:
+        href: https://nextcloud.vgnc.org
+        description: Cloud Storage
+        icon: nextcloud
+    - Netdata:
+        href: https://netdata.vgnc.org
+        description: System Monitoring
+        icon: netdata
+    - Portainer:
+        href: https://portainer.vgnc.org
+        description: Docker Management
+        icon: portainer
+    - Minecraft:
+        href: minecraft://minecraft.vgnc.org:25565
+        description: Game Server
+        icon: minecraft
+    - Telegram Bot:
+        href: https://bot.vgnc.org
+        description: Service Status Bot
+        icon: telegram

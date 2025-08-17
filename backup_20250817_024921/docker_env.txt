@@ -1,0 +1,8 @@
+# Telegram Bot Configuration
+BOT_TOKEN=your_telegram_bot_token_here
+CHAT_ID=your_chat_id_here
+
+# Cloudflare Tunnel Configuration
+TUNNEL_ID=e3a310ee-ec5b-4ef2-b958-d45055ad5206
+ZONE_ID=4146eba4d0d4883f46a1256f33975c4f
+API_TOKEN=Qeu3r2xSr5POS9KRVlKTfTtgl7IyopBS8X4lutTe
